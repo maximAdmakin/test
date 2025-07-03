@@ -18,4 +18,4 @@ for i in range(iterations):
     print("Δt:", timestamp_s - t)
     deltatime.append(timestamp_s - t)
 
-print("avg Δt:", sum(deltatime) / iterations)
+print("avr Δt:", sum(deltatime) / iterations)
