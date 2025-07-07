@@ -3,10 +3,10 @@ import requests, time, json
 deltatime = list()
 
 iterations = 5
-
+#
 for i in range(iterations): 
 
-    t = time.time()
+    t = time.time() 
     r = requests.get('https://yandex.com/time/sync.json?geo=213')
     print(r.text)
 
